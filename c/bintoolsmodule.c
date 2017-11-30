@@ -135,7 +135,7 @@ arr_binreduce(PyObject *NPY_UNUSED(self), PyObject *args, PyObject *kwds)
         }
         NPY_END_ALLOW_THREADS;
     }
-    if (!strcmp(cop, "min")) {
+    else if (!strcmp(cop, "min")) {
         NPY_BEGIN_ALLOW_THREADS;
         for (i = 0; i < len; i++) {
             if (dans[numbers[i]] == NAN) {
