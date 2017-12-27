@@ -5,7 +5,7 @@ import re
 
 from numpy.distutils.core import setup, Extension
 
-setup(name='matscipy',
+setup(name='bintools',
       description='Binarization tools',
       maintainer='Lars Pastewka',
       maintainer_email='lars.pastewka@imtek.uni-freiburg.de',
